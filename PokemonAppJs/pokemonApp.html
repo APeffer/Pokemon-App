@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PokeAPI Example</title>
+  <link rel="stylesheet" href="pokemonApp.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <div id="pokemonApp">
+    <img src="images/PokemonLogo.svg" alt="Pokemon Logo" width="500">
+    <h1>Enter a pokemon:</h1>
+    <div id="pokeForm">
+      <input type="text" id="pokeInput" placeholder="pokemon name/number" />
+      <button id="pokeInputBtn" onclick="searchPokemon(pokeInput.value.toLowerCase()); clearInput('pokeInput')";>Submit</button> 
+    </div>
+    <div id="pokeData"></div>
+
+    <script src="pokemonApp.js"></script>
+  </div>
+</body>
+</html>
