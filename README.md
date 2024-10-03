@@ -1,5 +1,5 @@
 # Pokemon-App
-A Pokemon app that I used to learn about requests and the fetch API.
+A Pokemon app that I used to learn about HTTP requests and the fetch API.
 
 This is my first project working with the fetch API and GET HTTP requests using a RESTful API.
 
